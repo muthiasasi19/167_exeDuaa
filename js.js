@@ -19,6 +19,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
   message += "Alamat: " + alamat + "\n";
   message += "Bukti Pembayaran: " + fotoProfil;
 
+  
   // Menampilkan alert dengan tombol konfirmasi dan batal
   var confirmation = confirm(message +"\n\nApakah Anda ingin melanjutkan pendaftaran?");
   if (confirmation) {
