@@ -1,7 +1,7 @@
 document.getElementById('myForm').addEventListener('submit', function(event) {
   event.preventDefault();
 
-  // Mengumpulkan  dari input
+  // Mengumpulkan nilai dari input
   var nama = document.getElementById('textField').value;
   var kotaAcara = document.getElementById('exampleDataList').value;
   var tanggalAcara = document.getElementById('dateField').value;
