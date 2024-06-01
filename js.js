@@ -10,7 +10,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
   var alamat = document.getElementById('textareaField').value;
   var fotoProfil = document.getElementById('formFile').value; // Ingat bahwa Anda perlu logika khusus untuk menangani file input
 
-  // Menampilkan nilai input dalam alert
+  // Menampilkan nilai input dalam Alert
   var message = "Nama: " + nama + "\n";
   message += "Kota Konser: " + kotaAcara + "\n";
   message += "Tanggal Konser: " + tanggalAcara + "\n";
