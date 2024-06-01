@@ -21,11 +21,10 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
 
   // Menampilkan alert dengan tombol serta konfirmasi dan batal
   var confirmation = confirm(message +"\n\nApakah Anda ingin melanjutkan pendaftaran?");
-  if (confirmation) {
-    // Lakukan tindakan ketika dikonfirmasi
+  if (confirmation)
+  {// Lakukan tindakan ketika dikonfirmasi
     alert('Pendaftaran berhasil!');
   } else {
     // Lakukan tindakan ketika dibatalkan
-    alert('Pendaftaran dibatalkan.');
-  }
+    alert('Pendaftaran dibatalkan.');}
 });
